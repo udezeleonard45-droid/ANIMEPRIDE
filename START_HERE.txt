@@ -1,0 +1,15 @@
+ANIMEPRIDE — START HERE
+
+1. Install Docker Desktop.
+2. Extract this ZIP.
+3. Copy .env.example to .env.
+4. Change POSTGRES_PASSWORD and JWT_SECRET in .env.
+5. Open a terminal in this folder and run: docker compose up --build
+6. Open http://localhost:8080
+7. Register an account.
+8. Promote your own account to admin:
+   docker compose exec api python -m app.make_admin your-email@example.com
+
+Do not upload your .env file to GitHub.
+For a public launch, configure a domain, HTTPS, production secrets, backups,
+monitoring, and only authorized video sources. See README.md.

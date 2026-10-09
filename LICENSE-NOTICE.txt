@@ -1,0 +1,1 @@
+This project code is provided as a starter implementation. You are responsible for complying with applicable laws, platform terms, privacy rules, and all content licences. Animepride does not include licensed anime episodes or proprietary poster/video assets. External image URLs are examples or metadata returned by the external API; verify usage rights before production.
